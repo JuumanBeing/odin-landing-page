@@ -1,0 +1,38 @@
+/* Reset
+================================================== */
+
+/* Global Display
+======================================== */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+
+/* Typography
+======================================== */
+
+/* Improve text wrapping */
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* Set form elements to inherit computed font values from parent element */
+input, button, textarea, select {
+  font: inherit;
+}
