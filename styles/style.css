@@ -181,3 +181,32 @@ header {
   font-size: 24px;
   font-weight: 900;
 }
+
+.cta {
+  display: flex;
+  justify-content: center;
+  padding: 125px;
+}
+
+.cta-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 175px;
+  padding: 45px 100px;
+  border-radius: 25px;
+  background-color: #3882F6;
+  color: #FFF;
+}
+
+.cta-header {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cta-button {
+  padding: 10px 25px;
+  border: 3px solid #FFF;
+  border-radius: 10px;
+  background-color: #3882F6;
+  color: #FFF;
+}
